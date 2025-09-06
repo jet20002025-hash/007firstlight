@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>007 First Light - Latest News, Updates & Game Information | 007firstlightinfo.com</title>
+    <meta name="description" content="Stay updated with the latest 007 First Light news, gameplay updates, reviews, and exclusive content. Launching March 27, 2026. Your ultimate source for all things 007 First Light gaming.">
+    <meta name="keywords" content="007 First Light, James Bond game, 007 gaming news, First Light updates, Bond game reviews, 007 gameplay">
+    <meta name="author" content="007firstlightinfo.com">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://007firstlightinfo.com/">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="007 First Light - Latest News & Updates">
+    <meta property="og:description" content="Stay updated with the latest 007 First Light news, gameplay updates, reviews, and exclusive content.">
+    <meta property="og:url" content="https://007firstlightinfo.com/">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="007 First Light Info">
+    <meta property="og:image" content="https://007firstlightinfo.com/images/007-first-light-og.jpg">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="007 First Light - Latest News & Updates">
+    <meta name="twitter:description" content="Stay updated with the latest 007 First Light news, gameplay updates, reviews, and exclusive content.">
+    <meta name="twitter:image" content="https://007firstlightinfo.com/images/007-first-light-twitter.jpg">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Custom Tailwind Configuration -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'apple-blue': '#007AFF',
+                        'apple-gray': '#8E8E93',
+                        'apple-dark': '#1D1D1F',
+                        'apple-light': '#F5F5F7',
+                        'apple-border': '#D2D2D7',
+                        'bond-gold': '#FFD700',
+                        'bond-dark': '#0A0A0A'
+                    },
+                    fontFamily: {
+                        'sans': ['SF Pro Display', 'Helvetica Neue', 'Arial', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <!-- Custom CSS -->
+    <style>
+        .news-card {
+            transition: all 0.3s ease;
+            border-radius: 12px;
+            overflow: hidden;
+        }
+        
+        .news-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+        }
+        
+        .hero-gradient {
+            background: linear-gradient(135deg, #1D1D1F 0%, #0A0A0A 100%);
+        }
+        
+        .fade-in {
+            animation: fadeIn 0.6s ease-in;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        .content-area {
+            min-height: 400px;
+            background: #F5F5F7;
+            border-radius: 12px;
+            padding: 2rem;
+            margin: 1rem 0;
+        }
+        
+        .update-badge {
+            background: linear-gradient(45deg, #007AFF, #0056CC);
+            color: white;
+            padding: 0.25rem 0.75rem;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+        
+        @media (max-width: 768px) {
+            .content-area {
+                padding: 1rem;
+                margin: 0.5rem 0;
+            }
+        }
+    </style>
+</head>
+<body class="bg-white text-apple-dark font-sans">
+    <!-- Header -->
+    <header class="bg-white border-b border-apple-border sticky top-0 z-50">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center">
+                    <h1 class="text-2xl font-bold text-apple-dark">
+                        <a href="/" class="hover:text-apple-blue transition-colors">007 First Light Info</a>
+                    </h1>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-4">
+                        <a href="#news" class="text-apple-gray hover:text-apple-blue px-3 py-2 rounded-md text-sm font-medium transition-colors">Latest News</a>
+                        <a href="#updates" class="text-apple-gray hover:text-apple-blue px-3 py-2 rounded-md text-sm font-medium transition-colors">Game Updates</a>
+                        <a href="#reviews" class="text-apple-gray hover:text-apple-blue px-3 py-2 rounded-md text-sm font-medium transition-colors">Reviews</a>
+                        <a href="#guides" class="text-apple-gray hover:text-apple-blue px-3 py-2 rounded-md text-sm font-medium transition-colors">Guides</a>
+                    </div>
+                </div>
+                <div class="md:hidden">
+                    <button type="button" class="text-apple-gray hover:text-apple-blue focus:outline-none focus:text-apple-blue">
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-gradient py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h1 class="text-4xl md:text-6xl font-bold text-white mb-6 fade-in">
+                007 First Light
+            </h1>
+            <p class="text-xl text-gray-300 mb-8 max-w-3xl mx-auto fade-in">
+                Your ultimate source for the latest 007 First Light news, updates, reviews, and exclusive content. 
+                Stay ahead of the game with comprehensive coverage. <strong>Launching March 27, 2026</strong>
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center fade-in">
+                <button class="bg-apple-blue text-white px-8 py-3 rounded-full font-semibold hover:bg-blue-600 transition-colors">
+                    Latest News
+                </button>
+                <button class="border border-white text-white px-8 py-3 rounded-full font-semibold hover:bg-white hover:text-bond-dark transition-colors">
+                    Game Updates
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        
+        <!-- Latest News Section -->
+        <section id="news" class="mb-20">
+            <h2 class="text-3xl font-bold text-apple-dark mb-8 text-center">Latest News</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <!-- State of Play News - Latest -->
+                <article class="news-card bg-white border border-apple-border rounded-xl shadow-sm">
+                    <div class="p-6">
+                        <div class="flex items-center justify-between mb-3">
+                            <span class="update-badge">BREAKING</span>
+                            <time class="text-apple-gray text-sm">Sep 1, 2025</time>
+                        </div>
+                        <h3 class="text-xl font-semibold text-apple-dark mb-3">State of Play to Showcase 30+ Minutes of 007 First Light Gameplay</h3>
+                        <p class="text-apple-gray mb-4 text-sm leading-relaxed">
+                            PlayStation announces a special State of Play featuring an extensive gameplay deep dive 
+                            of IO Interactive's upcoming James Bond espionage action-adventure.
+                        </p>
+                        <div class="content-area">
+                            <p class="text-apple-gray text-sm leading-relaxed mb-3">
+                                <strong>Event Details:</strong> The special State of Play will air on September 3 at 11am PT / 7pm BST / 8pm CEST 
+                                on PlayStation's Twitch and YouTube channels. Viewers can expect over 30 minutes of exclusive 
+                                007 First Light gameplay footage.
+                            </p>
+                            <p class="text-apple-gray text-sm leading-relaxed mb-3">
+                                <strong>Gameplay Preview:</strong> The showcase will feature a complete playthrough of Bond's first mission 
+                                as an MI6 recruit, including high-speed car chases, on-foot stealth sequences, and intense shootouts. 
+                                IO Interactive will provide insights into their espionage gameplay mechanics.
+                            </p>
+                            <p class="text-apple-gray text-sm leading-relaxed">
+                                <strong>Release Update:</strong> The game is confirmed to launch on March 27, 2026, following the gameplay 
+                                reveal that builds upon the initial trailer shown during June's State of Play presentation.
+                            </p>
+                        </div>
+                        <a href="https://blog.playstation.com/2025/09/01/state-of-play-presents-007-first-light-gameplay-deep-dive-on-september-3/" class="text-apple-blue hover:text-blue-600 font-medium text-sm transition-colors" target="_blank">
+                            Read Full Article →
+                        </a>
+                    </div>
+                </article>
+                
+                <!-- News Card Template 1 -->
+                <article class="news-card bg-white border border-apple-border rounded-xl shadow-sm">
+                    <div class="p-6">
+                        <div class="flex items-center justify-between mb-3">
+                            <span class="update-badge">BREAKING</span>
+                            <time class="text-apple-gray text-sm">Sep 3, 2024</time>
+                        </div>
+                        <h3 class="text-xl font-semibold text-apple-dark mb-3">007 First Light Casts Patrick Gibson as Young James Bond</h3>
+                        <p class="text-apple-gray mb-4 text-sm leading-relaxed">
+                            IO Interactive reveals the actor behind the youngest on-screen 007 in gaming history. 
+                            The Irish actor brings fresh energy to the iconic spy role in this origin story adventure.
+                        </p>
+                        <div class="content-area">
+                            <p class="text-apple-gray text-sm leading-relaxed mb-3">
+                                <strong>Cast Announcement:</strong> Patrick Gibson, known for his roles in "Shadow and Bone" and "The OA," 
+                                has been officially confirmed as the new James Bond in 007 First Light. At just 30 years old, Gibson will 
+                                portray the youngest Bond ever seen on screen, with the character being only 26 at the start of the story.
+                            </p>
+                            <p class="text-apple-gray text-sm leading-relaxed mb-3">
+                                <strong>Character Approach:</strong> IO Interactive's narrative director Martin Emborg explained that the team 
+                                focused on finding someone who could authentically portray an inexperienced Bond rather than casting 
+                                a household name. Gibson brings "excitable confidence and plenty of charm" along with the brashness 
+                                that suits this younger version of the character.
+                            </p>
+                            <p class="text-apple-gray text-sm leading-relaxed">
+                                <strong>Supporting Cast:</strong> The game also features classic Bond characters including M (Priyanga Burford), 
+                                Q (Alastair Mackenzie), and Miss Moneypenny (Kiera Lester), alongside new characters like Bond's mentor 
+                                John Greenway (Lennie James) and Miss Roth (Noemie Nakai).
+                            </p>
+                        </div>
+                        <a href="https://www.yahoo.com/entertainment/movies/articles/007-first-light-officially-casts-183500492.html" class="text-apple-blue hover:text-blue-600 font-medium text-sm transition-colors" target="_blank">
+                            Read Full Article →
+                        </a>
+                    </div>
+                </article>
+
+                <!-- News Card Template 2 -->
+                <article class="news-card bg-white border border-apple-border rounded-xl shadow-sm">
+                    <div class="p-6">
+                        <div class="flex items-center justify-between mb-3">
+                            <span class="update-badge">NEWS</span>
+                            <time class="text-apple-gray text-sm">Sep 3, 2024</time>
+                        </div>
+                        <h3 class="text-xl font-semibold text-apple-dark mb-3">IO Interactive's Unique Approach to Bond Development</h3>
+                        <p class="text-apple-gray mb-4 text-sm leading-relaxed">
+                            The Hitman developers reveal their innovative methods for securing the Bond license and 
+                            creating an authentic origin story for the world's most famous spy.
+                        </p>
+                        <div class="content-area">
+                            <p class="text-apple-gray text-sm leading-relaxed mb-3">
+                                <strong>Creative License Acquisition:</strong> IO Interactive employed a unique strategy to secure 
+                                the James Bond rights by incorporating Daniel Craig's likeness into a Hitman map. This creative 
+                                approach demonstrated their understanding of the Bond universe and helped establish their 
+                                credibility as developers capable of handling the iconic franchise.
+                            </p>
+                            <p class="text-apple-gray text-sm leading-relaxed mb-3">
+                                <strong>Development Challenges:</strong> The studio faced unexpected challenges during development, 
+                                including the impact of Queen Elizabeth II's passing on the project timeline. These real-world 
+                                events required careful navigation to maintain the game's authenticity while respecting historical context.
+                            </p>
+                            <p class="text-apple-gray text-sm leading-relaxed">
+                                <strong>Studio Vision:</strong> Based in Copenhagen, IO Interactive brings their signature stealth-action 
+                                expertise from the Hitman series to create a fresh take on the Bond formula, focusing on the 
+                                character's early years before he became the legendary 007.
+                            </p>
+                        </div>
+                        <a href="https://www.yahoo.com/entertainment/movies/articles/007-first-light-officially-casts-183500492.html" class="text-apple-blue hover:text-blue-600 font-medium text-sm transition-colors" target="_blank">
+                            Read Full Article →
+                        </a>
+                    </div>
+                </article>
+
+                <!-- News Card Template 3 -->
+                <article class="news-card bg-white border border-apple-border rounded-xl shadow-sm">
+                    <div class="p-6">
+                        <div class="flex items-center justify-between mb-3">
+                            <span class="update-badge">CAST</span>
+                            <time class="text-apple-gray text-sm">Sep 3, 2024</time>
+                        </div>
+                        <h3 class="text-xl font-semibold text-apple-dark mb-3">Complete Cast Revealed for 007 First Light</h3>
+                        <p class="text-apple-gray mb-4 text-sm leading-relaxed">
+                            The full ensemble cast brings together both familiar Bond characters and exciting new faces 
+                            to create an authentic MI6 experience in this origin story.
+                        </p>
+                        <div class="content-area">
+                            <p class="text-apple-gray text-sm leading-relaxed mb-3">
+                                <strong>Iconic Characters Return:</strong> Classic Bond universe characters make their appearance 
+                                with fresh interpretations. Priyanga Burford takes on the role of M, Alastair Mackenzie 
+                                portrays Q, and Kiera Lester brings Miss Moneypenny to life in this younger Bond's world.
+                            </p>
+                            <p class="text-apple-gray text-sm leading-relaxed mb-3">
+                                <strong>New Faces:</strong> The game introduces compelling new characters including John Greenway 
+                                (played by Lennie James from "Fear the Walking Dead"), who serves as Bond's mentor, and 
+                                Miss Roth (Noemie Nakai), adding depth to the MI6 organization.
+                            </p>
+                            <p class="text-apple-gray text-sm leading-relaxed">
+                                <strong>Character Dynamics:</strong> The casting choices reflect IO Interactive's commitment 
+                                to creating authentic relationships between characters, with Gibson's young Bond learning 
+                                from experienced MI6 operatives while developing his own unique approach to espionage.
+                            </p>
+                        </div>
+                        <a href="https://www.yahoo.com/entertainment/movies/articles/007-first-light-officially-casts-183500492.html" class="text-apple-blue hover:text-blue-600 font-medium text-sm transition-colors" target="_blank">
+                            Read Full Article →
+                        </a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Game Updates Section -->
+        <section id="updates" class="mb-20">
+            <h2 class="text-3xl font-bold text-apple-dark mb-8 text-center">Game Updates</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                
+                <!-- Update Card Template 1 -->
+                <article class="news-card bg-white border border-apple-border rounded-xl shadow-sm">
+                    <div class="p-6">
+                        <div class="flex items-center justify-between mb-3">
+                            <span class="update-badge">DEVELOPMENT</span>
+                            <time class="text-apple-gray text-sm">Sep 3, 2024</time>
+                        </div>
+                        <h3 class="text-xl font-semibold text-apple-dark mb-3">The Creative Pitch That Secured the Bond License</h3>
+                        <p class="text-apple-gray mb-4 text-sm leading-relaxed">
+                            IO Interactive reveals the ingenious demonstration that convinced MGM and Eon to grant them 
+                            the James Bond video game rights using Hitman's signature social stealth gameplay.
+                        </p>
+                        <div class="content-area">
+                            <p class="text-apple-gray text-sm leading-relaxed mb-3">
+                                <strong>The Daniel Craig Demo:</strong> IO Interactive CEO Hakan Abrak revealed that the studio 
+                                created a unique pitch by modeling Daniel Craig's head and placing it on Agent 47's body 
+                                in the beloved Sapienza map from Hitman: World of Assassination. This creative demonstration 
+                                showcased their vision for Bond's social stealth gameplay.
+                            </p>
+                            <p class="text-apple-gray text-sm leading-relaxed mb-3">
+                                <strong>Social Stealth Vision:</strong> Rather than focusing solely on action and shooting, 
+                                IO wanted to demonstrate Bond's ability to navigate social spaces using charm, bluff, and 
+                                wit. The Sapienza map, with its sun-soaked Italian streets and complex social dynamics, 
+                                proved perfect for showcasing this approach to the license holders.
+                            </p>
+                            <p class="text-apple-gray text-sm leading-relaxed">
+                                <strong>Origin Story Focus:</strong> The studio emphasized their commitment to creating an 
+                                authentic Bond experience from the ground up, exploring the untold story of a young 
+                                James learning the ropes of espionage rather than starting as the fully-formed 007.
+                            </p>
+                        </div>
+                        <a href="https://www.ign.com/articles/hitman-dev-io-interactive-put-daniel-craigs-head-on-agent-47-when-pitching-for-james-bond-game-007-first-light" class="text-apple-blue hover:text-blue-600 font-medium text-sm transition-colors" target="_blank">
+                            Read Full Article →
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Update Card Template 2 -->
+                <article class="news-card bg-white border border-apple-border rounded-xl shadow-sm">
+                    <div class="p-6">
+                        <div class="flex items-center justify-between mb-3">
+                            <span class="update-badge">DESIGN</span>
+                            <time class="text-apple-gray text-sm">Sep 3, 2024</time>
+                        </div>
+                        <h3 class="text-xl font-semibold text-apple-dark mb-3">IO Interactive's Vision for Authentic Bond Gameplay</h3>
+                        <p class="text-apple-gray mb-4 text-sm leading-relaxed">
+                            The Danish studio explains their approach to creating a genuine Bond experience that goes 
+                            beyond simple action sequences to explore the character's social intelligence and charm.
+                        </p>
+                        <div class="content-area">
+                            <p class="text-apple-gray text-sm leading-relaxed mb-3">
+                                <strong>360-Degree Experience:</strong> IO Interactive aims to deliver a comprehensive Bond 
+                                experience that combines action sequences with social stealth gameplay. Players will navigate 
+                                social spaces using Bond's charm, bluff, and wit rather than relying solely on combat.
+                            </p>
+                            <p class="text-apple-gray text-sm leading-relaxed mb-3">
+                                <strong>Learning Journey:</strong> Unlike previous Bond games featuring an experienced agent, 
+                                007 First Light focuses on a young James learning the ropes of espionage. Players will witness 
+                                Bond's development from a novice to the legendary 007 throughout the game's narrative.
+                            </p>
+                            <p class="text-apple-gray text-sm leading-relaxed">
+                                <strong>Authentic Development:</strong> The studio emphasizes building the game from the ground 
+                                up as a genuine gaming experience rather than adapting movie scenes, ensuring players get 
+                                an authentic Bond adventure crafted specifically for interactive entertainment.
+                            </p>
+                        </div>
+                        <a href="https://www.ign.com/articles/hitman-dev-io-interactive-put-daniel-craigs-head-on-agent-47-when-pitching-for-james-bond-game-007-first-light" class="text-apple-blue hover:text-blue-600 font-medium text-sm transition-colors" target="_blank">
+                            Read Full Article →
+                        </a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Reviews Section -->
+        <section id="reviews" class="mb-20">
+            <h2 class="text-3xl font-bold text-apple-dark mb-8 text-center">Reviews & Analysis</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <!-- Review Card Template 1 -->
+                <article class="news-card bg-white border border-apple-border rounded-xl shadow-sm">
+                    <div class="p-6">
+                        <div class="flex items-center justify-between mb-3">
+                            <span class="update-badge">ANALYSIS</span>
+                            <time class="text-apple-gray text-sm">Sep 3, 2024</time>
+                        </div>
+                        <h3 class="text-xl font-semibold text-apple-dark mb-3">007 First Light: Official Game Pillars Breakdown</h3>
+                        <p class="text-apple-gray mb-4 text-sm leading-relaxed">
+                            Deep dive into IO Interactive's four core gameplay pillars that define the 
+                            authentic James Bond experience in this thrilling origin story.
+                        </p>
+                        <div class="content-area">
+                            <p class="text-apple-gray text-sm leading-relaxed mb-3">
+                                <strong>Become 007:</strong> The game presents a standalone, re-imagined James Bond origin story 
+                                that follows an audacious young hero's journey to becoming MI6's best agent. This fresh take 
+                                on the iconic character offers players a unique perspective on Bond's early years.
+                            </p>
+                            <p class="text-apple-gray text-sm leading-relaxed mb-3">
+                                <strong>Thrilling Espionage Adventure:</strong> Players will embark on missions in breathtaking 
+                                locations, drive iconic vehicles, and experience cinematic adventures while pursuing a rogue 
+                                agent who's always one step ahead, creating intense cat-and-mouse gameplay dynamics.
+                            </p>
+                            <p class="text-apple-gray text-sm leading-relaxed">
+                                <strong>Spying, Your Way:</strong> The game offers complete player agency with multiple approaches 
+                                - go silent or loud, fight with fists or firepower, use gadgets for infiltration, or bluff 
+                                past guards. This flexibility ensures every mission feels uniquely personal.
+                            </p>
+                        </div>
+                        <a href="https://ioi.dk/007firstlightgame" class="text-apple-blue hover:text-blue-600 font-medium text-sm transition-colors" target="_blank">
+                            Visit Official Site →
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Review Card Template 2 -->
+                <article class="news-card bg-white border border-apple-border rounded-xl shadow-sm">
+                    <div class="p-6">
+                        <div class="flex items-center justify-between mb-3">
+                            <span class="update-badge">PREVIEW</span>
+                            <time class="text-apple-gray text-sm">Sep 3, 2024</time>
+                        </div>
+                        <h3 class="text-xl font-semibold text-apple-dark mb-3">Welcome to MI6: Replayability and Community Features</h3>
+                        <p class="text-apple-gray mb-4 text-sm leading-relaxed">
+                            IO Interactive introduces innovative replay mechanics and community challenges 
+                            that extend the game's longevity beyond the main campaign.
+                        </p>
+                        <div class="content-area">
+                            <p class="text-apple-gray text-sm leading-relaxed mb-3">
+                                <strong>Mission Replayability:</strong> The "Welcome to MI6" pillar introduces additional 
+                                modifiers for replaying favorite missions, providing endless espionage fun. Players can 
+                                test their skills with various challenges and approaches to familiar scenarios.
+                            </p>
+                            <p class="text-apple-gray text-sm leading-relaxed mb-3">
+                                <strong>Community Challenges:</strong> IO Interactive has implemented a community challenge 
+                                system where more wishlists unlock collective rewards. Players can sign up for IOI Account 
+                                to claim community unlocks and participate in tier-based reward systems.
+                            </p>
+                            <p class="text-apple-gray text-sm leading-relaxed">
+                                <strong>Training Program Focus:</strong> The game follows James Bond as a young, resourceful, 
+                                and sometimes reckless recruit in MI6's training program, offering a unique perspective 
+                                on the world's most famous spy's early development.
+                            </p>
+                        </div>
+                        <a href="https://ioi.dk/007firstlightgame" class="text-apple-blue hover:text-blue-600 font-medium text-sm transition-colors" target="_blank">
+                            Visit Official Site →
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Review Card Template 3 -->
+                <article class="news-card bg-white border border-apple-border rounded-xl shadow-sm">
+                    <div class="p-6">
+                        <div class="flex items-center justify-between mb-3">
+                            <span class="update-badge">OVERVIEW</span>
+                            <time class="text-apple-gray text-sm">Sep 3, 2024</time>
+                        </div>
+                        <h3 class="text-xl font-semibold text-apple-dark mb-3">007 First Light: A Thrilling Narrative Action-Adventure</h3>
+                        <p class="text-apple-gray mb-4 text-sm leading-relaxed">
+                            IO Interactive delivers a cinematic Bond experience that combines narrative depth 
+                            with action-adventure gameplay in this highly anticipated origin story.
+                        </p>
+                        <div class="content-area">
+                            <p class="text-apple-gray text-sm leading-relaxed mb-3">
+                                <strong>Narrative Focus:</strong> 007 First Light is described as a "thrilling narrative 
+                                action-adventure game" that prioritizes storytelling alongside gameplay. The game follows 
+                                James Bond as a young recruit, offering players insight into his formative years.
+                            </p>
+                            <p class="text-apple-gray text-sm leading-relaxed mb-3">
+                                <strong>Character Development:</strong> The game portrays Bond as "young, resourceful, and 
+                                sometimes reckless," highlighting his growth from a trainee to the legendary 007. This 
+                                character arc provides emotional depth rarely seen in previous Bond games.
+                            </p>
+                            <p class="text-apple-gray text-sm leading-relaxed">
+                                <strong>ESRB Rating:</strong> The game currently holds a "Rating Pending" ESRB status, indicating 
+                                that content may be inappropriate for children. This suggests mature themes appropriate 
+                                for the spy thriller genre.
+                            </p>
+                        </div>
+                        <a href="https://ioi.dk/007firstlightgame" class="text-apple-blue hover:text-blue-600 font-medium text-sm transition-colors" target="_blank">
+                            Visit Official Site →
+                        </a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Guides Section -->
+        <section id="guides" class="mb-20">
+            <h2 class="text-3xl font-bold text-apple-dark mb-8 text-center">Guides & Tips</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                
+                <!-- Guide Card Template 1 -->
+                <article class="news-card bg-white border border-apple-border rounded-xl shadow-sm">
+                    <div class="p-6">
+                        <div class="flex items-center justify-between mb-3">
+                            <span class="update-badge">GUIDE</span>
+                            <time class="text-apple-gray text-sm">Sep 3, 2024</time>
+                        </div>
+                        <h3 class="text-xl font-semibold text-apple-dark mb-3">Mastering the Four Game Pillars</h3>
+                        <p class="text-apple-gray mb-4 text-sm leading-relaxed">
+                            Essential guide to understanding and excelling at each of IO Interactive's 
+                            core gameplay pillars in 007 First Light.
+                        </p>
+                        <div class="content-area">
+                            <p class="text-apple-gray text-sm leading-relaxed mb-3">
+                                <strong>Become 007 Strategy:</strong> Focus on character development and story progression. 
+                                Pay attention to dialogue choices and character interactions that shape Bond's personality 
+                                and skills throughout his MI6 training program.
+                            </p>
+                            <p class="text-apple-gray text-sm leading-relaxed mb-3">
+                                <strong>Espionage Adventure Tips:</strong> Master the art of pursuit missions and vehicle 
+                                sequences. Learn to anticipate the rogue agent's moves and use environmental advantages 
+                                in breathtaking locations to gain the upper hand.
+                            </p>
+                            <p class="text-apple-gray text-sm leading-relaxed">
+                                <strong>Spying Your Way:</strong> Experiment with different approaches - stealth, combat, 
+                                gadgets, and social manipulation. Each mission offers multiple paths to success, so 
+                                don't be afraid to replay and try different strategies.
+                            </p>
+                        </div>
+                        <a href="https://ioi.dk/007firstlightgame" class="text-apple-blue hover:text-blue-600 font-medium text-sm transition-colors" target="_blank">
+                            Visit Official Site →
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Guide Card Template 2 -->
+                <article class="news-card bg-white border border-apple-border rounded-xl shadow-sm">
+                    <div class="p-6">
+                        <div class="flex items-center justify-between mb-3">
+                            <span class="update-badge">COMMUNITY</span>
+                            <time class="text-apple-gray text-sm">Sep 3, 2024</time>
+                        </div>
+                        <h3 class="text-xl font-semibold text-apple-dark mb-3">Community Challenges and IOI Account Benefits</h3>
+                        <p class="text-apple-gray mb-4 text-sm leading-relaxed">
+                            Complete guide to maximizing your experience with IO Interactive's community 
+                            features and unlocking exclusive rewards in 007 First Light.
+                        </p>
+                        <div class="content-area">
+                            <p class="text-apple-gray text-sm leading-relaxed mb-3">
+                                <strong>IOI Account Setup:</strong> Sign up for an IOI Account to access community unlocks 
+                                and participate in collective reward systems. The account provides access to exclusive 
+                                content and community challenges that enhance the overall gaming experience.
+                            </p>
+                            <p class="text-apple-gray text-sm leading-relaxed mb-3">
+                                <strong>Community Challenges:</strong> Participate in tier-based community challenges where 
+                                more wishlists unlock collective rewards. Each tier reached provides additional benefits 
+                                and exclusive content for all participating players.
+                            </p>
+                            <p class="text-apple-gray text-sm leading-relaxed">
+                                <strong>Mission Modifiers:</strong> Take advantage of the "Welcome to MI6" replay system 
+                                with additional modifiers. Test your skills with various challenges and approaches to 
+                                create endless espionage fun beyond the main campaign.
+                            </p>
+                        </div>
+                        <a href="https://ioi.dk/007firstlightgame" class="text-apple-blue hover:text-blue-600 font-medium text-sm transition-colors" target="_blank">
+                            Visit Official Site →
+                        </a>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-apple-light border-t border-apple-border">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div class="col-span-1 md:col-span-2">
+                    <h3 class="text-lg font-semibold text-apple-dark mb-4">007 First Light Info</h3>
+                    <p class="text-apple-gray text-sm leading-relaxed mb-4">
+                        Your ultimate destination for 007 First Light news, updates, reviews, and guides. 
+                        Stay informed with the latest information about the game.
+                    </p>
+                </div>
+                <div>
+                    <h4 class="text-sm font-semibold text-apple-dark mb-4">Categories</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#news" class="text-apple-gray hover:text-apple-blue transition-colors">Latest News</a></li>
+                        <li><a href="#updates" class="text-apple-gray hover:text-apple-blue transition-colors">Game Updates</a></li>
+                        <li><a href="#reviews" class="text-apple-gray hover:text-apple-blue transition-colors">Reviews</a></li>
+                        <li><a href="#guides" class="text-apple-gray hover:text-apple-blue transition-colors">Guides</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-sm font-semibold text-apple-dark mb-4">Support</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#" class="text-apple-gray hover:text-apple-blue transition-colors">Contact Us</a></li>
+                        <li><a href="#" class="text-apple-gray hover:text-apple-blue transition-colors">Privacy Policy</a></li>
+                        <li><a href="#" class="text-apple-gray hover:text-apple-blue transition-colors">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-apple-border mt-8 pt-8 text-center">
+                <p class="text-apple-gray text-sm">
+                    © 2024 007firstlightinfo.com. All rights reserved. | 
+                    <a href="https://007firstlightinfo.com/" class="hover:text-apple-blue transition-colors">007firstlightinfo.com</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript for smooth scrolling and animations -->
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Add fade-in animation to elements as they come into view
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('fade-in');
+                }
+            });
+        }, observerOptions);
+
+        // Observe all news cards
+        document.querySelectorAll('.news-card').forEach(card => {
+            observer.observe(card);
+        });
+
+        // Mobile menu toggle (basic implementation)
+        const mobileMenuButton = document.querySelector('.md\\:hidden button');
+        if (mobileMenuButton) {
+            mobileMenuButton.addEventListener('click', function() {
+                // Add mobile menu functionality here
+                console.log('Mobile menu clicked');
+            });
+        }
+    </script>
+</body>
+</html>
