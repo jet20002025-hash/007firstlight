@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://jet20002025-hash.github.io/007firstlight/sitemap.xml
+Sitemap: https://007firstlightinfo.com/sitemap.xml
